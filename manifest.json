@@ -139,5 +139,16 @@
       "description": "Observe one scoped cloud server",
       "action": "servers.get"
     }
+  ],
+  "icon": "assets/icon.svg",
+  "readme": "README.md",
+  "homepage": "https://github.com/spitzli/cloud-plugin-lumaserv-compute",
+  "documentation_url": "https://github.com/spitzli/cloud-plugin-lumaserv-compute/blob/HEAD/README.md",
+  "screenshots": [
+    {
+      "url": "screenshots/compute-servers.png",
+      "caption": "Actual Console renderer using the v2 response pinned by the subprocess contract; synthetic server, disabled actions. Requires a new release.",
+      "alt": "Read-only compute server table and disabled pagination controls"
+    }
   ]
 }
