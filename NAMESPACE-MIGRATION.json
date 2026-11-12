@@ -1,0 +1,53 @@
+{
+  "baseSource": "efa19f81367b71a260996fb60026f113543e9137",
+  "date": "2026-11-12",
+  "formatVersion": 1,
+  "licenseUnchanged": true,
+  "originalSourceSnapshotRetained": true,
+  "package": "spitzli-lumaserv-compute",
+  "preservedBindingFilesSHA256": {
+    "COMMERCIAL-LICENSING.md": "5b8832f5014f16e2cf4f7ee295de32760eed20981495d184bd9f1517be256a09",
+    "EXPORT-PROVENANCE.json": "9a7e4fa076c50375c2cf3344254776c66623c22a85e82332d7a0ff3494229c7e",
+    "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+    "manifest.json": "44ed6445294e3e59e2a523ffb7d4f42fa6f8c893da355306a5970c8df77d65d9"
+  },
+  "qualifiedChangedSourceSHA256": {
+    "Cargo.lock": "2adf384ab49c5bb3540532f2b2b61b3ed3d9167104cec1c04b7976082761be8a",
+    "Cargo.toml": "5afa08680aa571cf5f98e92cb6717a0ec010e95fce236300f79c62cdaa1fb9e5",
+    "Dockerfile": "699342ca28ab1ab5e3f52186c51e9f811dc2b5e829bb40bca4797d1c4c150a74",
+    "NOTICE": "4949ccd63735c148d2fd1f1423772d11938087ba0bdbcf4aad81c576bcfa09b8",
+    "README.md": "6b4bfcf0406c5659308c622615909396af3466f013b4571cca925398ce3c51d0",
+    "scripts/plugin-release/release.mjs": "30462a348f238bc78dab840688199574ad4fc5e9b039310306d6210f4c433890",
+    "src/lib.rs": "96c3a3be1e9c38b32758cbc53c6c34c80efefd48ff6a752a21fa8a5f4f60e8bd",
+    "src/main.rs": "b7c7bbd0d197f9f95114ee7ebfe341d3de7e4b5aa4b0b5e1b259381621a5b946",
+    "standalone.json": "50943f59429b59f786282746bf9de609998f022fa11b155dd56f2926c11a2df9",
+    "tests/authoring.rs": "331d990926417733bf9ce54a2d0ab4875a734bd1e698cc25ba6c7250a67b101d",
+    "tests/process.rs": "6b4286793ce25ad841b7854f42efa5193f7cac067b6c1a772208c02cff450ab2",
+    "tools/manifest-validator/Cargo.lock": "ae2cb28761abf9ce99c9f5c4df246d47d61955a9919907fd222f511d13d84ba6",
+    "tools/manifest-validator/Cargo.toml": "81aa8724804a7f701f7b312c8851937369409d029071d2034dbd6f535b86df6a",
+    "tools/manifest-validator/src/main.rs": "bb5f5ab38c63e2c28aa64a329696e923aa747e62de2d058e2de734ada06e72b4"
+  },
+  "runtimeArtifactsReplaced": false,
+  "scope": "Rust package/import and binary namespace, host UI import namespace, paired test environment variables and exact SDK pin",
+  "sdkGit": "https://github.com/spitzli/cloud-plugin-sdk",
+  "sdkRevision": "8019f3df67dba3fed3083f22635e4725028c1b5e",
+  "sourceChecks": {
+    "allRegistryLockfilesPreserved": [
+      "Cargo.lock",
+      "tools/manifest-validator/Cargo.lock"
+    ],
+    "format": true,
+    "releaseContract": true,
+    "rustLiteralFilesChecked": 5,
+    "strictClippy": true,
+    "testsIgnored": 0,
+    "testsPassed": 3,
+    "ui": {
+      "backendOnly": true,
+      "component": "lumaserv-compute",
+      "uiTypecheck": "not-applicable-no-ui-source"
+    }
+  },
+  "version": "0.1.0",
+  "wireStoredCryptographicAndExternalResourceBindings": "retained for coordinated migration"
+}
